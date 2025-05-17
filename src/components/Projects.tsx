@@ -1,14 +1,17 @@
-import { useState, useEffect, useRef } from "react";
+// import { useState, useEffect, useRef } from "react";
 import { projects } from "../data/projects";
 import { useInView } from "react-intersection-observer";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import "swiper/css/navigation";
+
 
 export default function Projects() {
-  const { ref, inView } = useInView({
+  const { ref
+    // , inView 
+  } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });

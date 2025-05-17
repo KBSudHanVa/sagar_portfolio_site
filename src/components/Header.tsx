@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useMobileMenu } from "../hooks/use-mobile-menu";
-import { Menu, X } from "lucide-react";
+// import { Menu, X } from "lucide-react";
 
 export default function Header() {
   const { isOpen, toggleMenu, closeMenu } = useMobileMenu();
