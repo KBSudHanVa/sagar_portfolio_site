@@ -6,6 +6,7 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import DevFooter from "../components/DevFooter";
 import CustomCursor from "../components/CustomCursor";
 import BackToTop from "../components/BackToTop";
 import AOS from "aos";
@@ -39,6 +40,7 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      {/* <DevFooter /> */}
       <BackToTop />
     </div>
   );
